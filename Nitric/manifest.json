@@ -1,0 +1,53 @@
+{
+  "id": "com.ntricacid.security.lab.v1",
+  "name": "NtricAcid Security Lab",
+  "short_name": "NtricAcid",
+  "description": "High-speed professional educational platform for ethical hacking, vulnerability research, and security methodologies.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "categories": ["education", "security", "utilities"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2092/2092663.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2092/2092663.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2092/2092663.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "NtricAcid Mobile Terminal"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2092/2092663.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "NtricAcid Desktop Command Center"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Chat",
+      "url": "./index.html",
+      "description": "Start a new security research session",
+      "icons": [{ "src": "https://cdn-icons-png.flaticon.com/512/2092/2092663.png", "sizes": "192x192" }]
+    }
+  ]
+}
